@@ -1,0 +1,40 @@
+.scroll_top {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    -moz-opacity: 0.3;
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    -webkit-transition: 0.2s linear;
+    -webkit-transition-property: all;
+    -moz-transition: 0.2s linear;
+    -moz-transition-property: all;
+    -o-transition: 0.2s linear;
+    -o-transition-property: all;
+    transition: 0.2s linear;
+    transition-property: all;
+}
+.scroll_top:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+}
+
+.box_500 {
+    width: 500px;
+    height: 500px;
+}
+
+.bg_red {
+    background-color: red;
+}
+.bg_yellow {
+    background-color: yellow;
+}
+.bg_blue {
+    background-color: blue;
+}
+.bg_black {
+    background-color: black;
+}
