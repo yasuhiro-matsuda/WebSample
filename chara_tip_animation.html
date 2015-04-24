@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>キャラチップをトリムしつつアニメーションさせる</title>
+    <link rel="stylesheet" href="css/chara_tip_animation.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/chara_tip_animation.js"></script>
+</head>
+<body>
+    <div>
+        <div class="float_left">
+            <img src="image/$Actor_ika.png">
+        </div>
+        <div class="float_left">
+            <div class="chara_tip_frame">
+                <img class="chara_tip_trim" data-line="1" src="image/$Actor_ika.png">
+            </div>
+            <div class="chara_tip_frame">
+                <img class="chara_tip_trim" data-line="2" src="image/$Actor_ika.png">
+            </div>
+            <div class="chara_tip_frame">
+                <img class="chara_tip_trim" data-line="3" src="image/$Actor_ika.png">
+            </div>
+            <div class="chara_tip_frame">
+                <img class="chara_tip_trim" data-line="4" src="image/$Actor_ika.png">
+            </div>
+        </div>
+        <div class="clear_both" />
+    </div>
+    <div>
+        <div class="float_left">
+            <img src="image/$Actor64_b_3.png">
+        </div>
+        <div class="float_left">
+            <div class="chara_tip_frame">
+                <img class="chara_tip_trim" data-line="1" data-frame_sequence="1,2,3" src="image/$Actor64_b_3.png">
+            </div>
+            <div class="chara_tip_frame">
+                <img class="chara_tip_trim" data-line="2" data-frame_sequence="1,2,3" src="image/$Actor64_b_3.png">
+            </div>
+            <div class="chara_tip_frame">
+                <img class="chara_tip_trim" data-line="3" data-frame_sequence="1,2,3" src="image/$Actor64_b_3.png">
+            </div>
+            <div class="chara_tip_frame">
+                <img class="chara_tip_trim" data-line="4" src="image/$Actor64_b_3.png">
+            </div>
+        </div>
+        <div class="clear_both" />
+    </div>
+</body>
+</html>
