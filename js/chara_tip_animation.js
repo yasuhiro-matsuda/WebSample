@@ -21,10 +21,10 @@ $(function() {
                 'top' : - top  + 'px',
                 'left': - left + 'px',
                 'clip':'rect('+
-                top + 'px,' +
-                right + 'px,' +
-                bottom + 'px,' +
-                left + 'px' +
+                    top + 'px,' +
+                    right + 'px,' +
+                    bottom + 'px,' +
+                    left + 'px' +
                 ')'
             });
         });

@@ -1,5 +1,6 @@
 .chara_tip_frame {
-    position: relative;   width: 32px;
+    position: relative;
+    width: 32px;
     height: 32px;
 }
 .chara_tip_frame .chara_tip_trim {
@@ -7,8 +8,8 @@
     clip: rect(0px, 32px, 32px, 0px);
 }
 .float_left {
-    float:left;
+    float: left;
 }
 .clear_both {
-    clear:both;
+    clear: both;
 }
